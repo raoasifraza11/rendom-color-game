@@ -1,0 +1,60 @@
+body{
+    background-color: #232323;
+    margin: 0px;
+}
+
+header{
+    background: #5654d4;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin: 0px;
+}
+
+nav {
+    padding: 0.1%;
+    background: green;
+    text-align: center
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1em; 
+    padding: 1%;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background: yellow;
+}
+
+.active{
+    padding: 1%;
+    background: yellow;
+}
+
+span{
+    display: block;
+}
+
+.square{
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.container{
+    width: 660px;
+    margin: 0 auto; /* trick to make center element*/
+}
